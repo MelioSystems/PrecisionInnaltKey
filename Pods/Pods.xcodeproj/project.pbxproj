@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16857603156A5E751028E986424E49A7 /* oAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4591158ED2930A142A430130C8C15976 /* oAuthManager.swift */; };
+		1F74389F99FC6865072A0D5556021800 /* InnaitPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E39B283AA54149004321294F761FBE6 /* InnaitPod-dummy.m */; };
+		38B26BB571778C7ED0BE2DCEB2214873 /* ConfigurationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808C01B20E9412569EA24C315450E301 /* ConfigurationManager.swift */; };
+		3B0B09BFCFF3830313FCA815872D61B2 /* RequestCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2354FD4ECE4F532582330CAE8C43EE /* RequestCall.swift */; };
+		4560A6EE84AEAE407FEFB4625671DEEE /* Pods-PrecisionInnaltKey-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A44BA5EF1DD6BAC68100094EBDB2E32C /* Pods-PrecisionInnaltKey-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		69F3881406C8A5405F417FA8518A63B0 /* InnaitPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA75415BD5B9816CF38332B370BD380C /* InnaitPod-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8B8EAC35B69F70F2B18C3C210001486F /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63EE9DE0B0ABD1F635CB0DEE4BF2071 /* AuthenticationManager.swift */; };
+		9761CA9C77D30CD188270FA4E75E7DDF /* Pods-PrecisionInnaltKey-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA41CD7E7597CC5125D1EECD0AE2B77E /* Pods-PrecisionInnaltKey-dummy.m */; };
+		E69EDEE1CF7EA84CC52C9869A60F6F54 /* RegisterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1155C0BEC732D05A56F17CA5E97A0DE2 /* RegisterManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FA2B518C4DFFB60F902F3CF72E74B33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49445DFB6B05664A7104D7C3F6C4D51F;
+			remoteInfo = InnaitPod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02EB1B5823BB9FE44ED34EA45A39C37F /* Pods-PrecisionInnaltKey.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PrecisionInnaltKey.modulemap"; sourceTree = "<group>"; };
+		1155C0BEC732D05A56F17CA5E97A0DE2 /* RegisterManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegisterManager.swift; path = InnaitPod/Classes/RegisterManager.swift; sourceTree = "<group>"; };
+		315041453A838838A7725BC1CB242550 /* InnaitPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = InnaitPod.modulemap; sourceTree = "<group>"; };
+		4591158ED2930A142A430130C8C15976 /* oAuthManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = oAuthManager.swift; path = InnaitPod/Classes/oAuthManager.swift; sourceTree = "<group>"; };
+		50573E18885C934C03CF85079F5CE9AB /* InnaitPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InnaitPod-prefix.pch"; sourceTree = "<group>"; };
+		56AA2338D834D7D01A85A5D1C8444CD7 /* Pods-PrecisionInnaltKey */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-PrecisionInnaltKey"; path = "libPods-PrecisionInnaltKey.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B552DD0812CB8AE2BF6F959E1210E52 /* InnaitPod */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = InnaitPod; path = libInnaitPod.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		808C01B20E9412569EA24C315450E301 /* ConfigurationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfigurationManager.swift; path = InnaitPod/Classes/ConfigurationManager.swift; sourceTree = "<group>"; };
+		81602E9C443DCD1C050581D565EBB512 /* InnaitPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = InnaitPod.debug.xcconfig; sourceTree = "<group>"; };
+		8E39B283AA54149004321294F761FBE6 /* InnaitPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "InnaitPod-dummy.m"; sourceTree = "<group>"; };
+		97BE853CF741F61DD7A064F17F6B92CF /* Pods-PrecisionInnaltKey-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PrecisionInnaltKey-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F0E31359AD9744B2E6BFCCAA54DF8E0 /* Pods-PrecisionInnaltKey.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PrecisionInnaltKey.debug.xcconfig"; sourceTree = "<group>"; };
+		A44BA5EF1DD6BAC68100094EBDB2E32C /* Pods-PrecisionInnaltKey-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PrecisionInnaltKey-umbrella.h"; sourceTree = "<group>"; };
+		B3242E4305710213E2D69E10AA1D788E /* Pods-PrecisionInnaltKey-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PrecisionInnaltKey-acknowledgements.plist"; sourceTree = "<group>"; };
+		DA41CD7E7597CC5125D1EECD0AE2B77E /* Pods-PrecisionInnaltKey-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PrecisionInnaltKey-dummy.m"; sourceTree = "<group>"; };
+		EA75415BD5B9816CF38332B370BD380C /* InnaitPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "InnaitPod-umbrella.h"; sourceTree = "<group>"; };
+		EB2354FD4ECE4F532582330CAE8C43EE /* RequestCall.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestCall.swift; path = InnaitPod/Classes/RequestCall.swift; sourceTree = "<group>"; };
+		EFC06DFD87209D5E80912BB9C3C68255 /* InnaitPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = InnaitPod.release.xcconfig; sourceTree = "<group>"; };
+		F63EE9DE0B0ABD1F635CB0DEE4BF2071 /* AuthenticationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationManager.swift; path = InnaitPod/Classes/AuthenticationManager.swift; sourceTree = "<group>"; };
+		FEA2B53B0FC86FB2CE30EE199F7D532B /* Pods-PrecisionInnaltKey.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PrecisionInnaltKey.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96B5E6DF831F6D91001E5A5512F74A5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8C897F9F5F6FF6B0304A85DBB63EFA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1176474FEA42C18DB3CF1885E974BAC5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C44F338E5D8F1E6ACB322B930C8399F6 /* InnaitPod */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		491A3BDC3485536B2FBA736991C81330 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B225A4D0BECB7B685FB38AEF85F1F402 /* Pods-PrecisionInnaltKey */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		532838CA92B4992A964CB0105333319C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				315041453A838838A7725BC1CB242550 /* InnaitPod.modulemap */,
+				8E39B283AA54149004321294F761FBE6 /* InnaitPod-dummy.m */,
+				50573E18885C934C03CF85079F5CE9AB /* InnaitPod-prefix.pch */,
+				EA75415BD5B9816CF38332B370BD380C /* InnaitPod-umbrella.h */,
+				81602E9C443DCD1C050581D565EBB512 /* InnaitPod.debug.xcconfig */,
+				EFC06DFD87209D5E80912BB9C3C68255 /* InnaitPod.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/InnaitPod";
+			sourceTree = "<group>";
+		};
+		B225A4D0BECB7B685FB38AEF85F1F402 /* Pods-PrecisionInnaltKey */ = {
+			isa = PBXGroup;
+			children = (
+				02EB1B5823BB9FE44ED34EA45A39C37F /* Pods-PrecisionInnaltKey.modulemap */,
+				97BE853CF741F61DD7A064F17F6B92CF /* Pods-PrecisionInnaltKey-acknowledgements.markdown */,
+				B3242E4305710213E2D69E10AA1D788E /* Pods-PrecisionInnaltKey-acknowledgements.plist */,
+				DA41CD7E7597CC5125D1EECD0AE2B77E /* Pods-PrecisionInnaltKey-dummy.m */,
+				A44BA5EF1DD6BAC68100094EBDB2E32C /* Pods-PrecisionInnaltKey-umbrella.h */,
+				9F0E31359AD9744B2E6BFCCAA54DF8E0 /* Pods-PrecisionInnaltKey.debug.xcconfig */,
+				FEA2B53B0FC86FB2CE30EE199F7D532B /* Pods-PrecisionInnaltKey.release.xcconfig */,
+			);
+			name = "Pods-PrecisionInnaltKey";
+			path = "Target Support Files/Pods-PrecisionInnaltKey";
+			sourceTree = "<group>";
+		};
+		C44F338E5D8F1E6ACB322B930C8399F6 /* InnaitPod */ = {
+			isa = PBXGroup;
+			children = (
+				F63EE9DE0B0ABD1F635CB0DEE4BF2071 /* AuthenticationManager.swift */,
+				808C01B20E9412569EA24C315450E301 /* ConfigurationManager.swift */,
+				4591158ED2930A142A430130C8C15976 /* oAuthManager.swift */,
+				1155C0BEC732D05A56F17CA5E97A0DE2 /* RegisterManager.swift */,
+				EB2354FD4ECE4F532582330CAE8C43EE /* RequestCall.swift */,
+				532838CA92B4992A964CB0105333319C /* Support Files */,
+			);
+			name = InnaitPod;
+			path = InnaitPod;
+			sourceTree = "<group>";
+		};
+		CD686C6C4A814657C44B717AC09ACEB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B552DD0812CB8AE2BF6F959E1210E52 /* InnaitPod */,
+				56AA2338D834D7D01A85A5D1C8444CD7 /* Pods-PrecisionInnaltKey */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				1176474FEA42C18DB3CF1885E974BAC5 /* Pods */,
+				CD686C6C4A814657C44B717AC09ACEB5 /* Products */,
+				491A3BDC3485536B2FBA736991C81330 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		94467DD6C543E066F85D707F84D17B43 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4560A6EE84AEAE407FEFB4625671DEEE /* Pods-PrecisionInnaltKey-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2778FF138CA26A12F9AD70A5DCE4C71 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69F3881406C8A5405F417FA8518A63B0 /* InnaitPod-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		49445DFB6B05664A7104D7C3F6C4D51F /* InnaitPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E29DF4E6F4289D4034DA26AE56ED9BD7 /* Build configuration list for PBXNativeTarget "InnaitPod" */;
+			buildPhases = (
+				A2778FF138CA26A12F9AD70A5DCE4C71 /* Headers */,
+				1FB7C75A87AD8E9850291CCCB0F78FD1 /* Sources */,
+				A8C897F9F5F6FF6B0304A85DBB63EFA1 /* Frameworks */,
+				D6A0009E21991F1E7042C94C473EF78F /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InnaitPod;
+			productName = InnaitPod;
+			productReference = 7B552DD0812CB8AE2BF6F959E1210E52 /* InnaitPod */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A0BEDFAD1C224B6AE1756C8D9E9BB9A4 /* Pods-PrecisionInnaltKey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB65626F47805EE5D43462724EA5E61A /* Build configuration list for PBXNativeTarget "Pods-PrecisionInnaltKey" */;
+			buildPhases = (
+				94467DD6C543E066F85D707F84D17B43 /* Headers */,
+				4CD0AEB275C1F3439AC981CA6B8285D0 /* Sources */,
+				96B5E6DF831F6D91001E5A5512F74A5A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5568B94632DB0D7B54EB69228D96E943 /* PBXTargetDependency */,
+			);
+			name = "Pods-PrecisionInnaltKey";
+			productName = "Pods-PrecisionInnaltKey";
+			productReference = 56AA2338D834D7D01A85A5D1C8444CD7 /* Pods-PrecisionInnaltKey */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CD686C6C4A814657C44B717AC09ACEB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49445DFB6B05664A7104D7C3F6C4D51F /* InnaitPod */,
+				A0BEDFAD1C224B6AE1756C8D9E9BB9A4 /* Pods-PrecisionInnaltKey */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D6A0009E21991F1E7042C94C473EF78F /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/InnaitPod/InnaitPod.modulemap",
+				"${PODS_ROOT}/Headers/Public/InnaitPod/InnaitPod-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/InnaitPod-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/InnaitPod/InnaitPod.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/InnaitPod/InnaitPod-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FB7C75A87AD8E9850291CCCB0F78FD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B8EAC35B69F70F2B18C3C210001486F /* AuthenticationManager.swift in Sources */,
+				38B26BB571778C7ED0BE2DCEB2214873 /* ConfigurationManager.swift in Sources */,
+				1F74389F99FC6865072A0D5556021800 /* InnaitPod-dummy.m in Sources */,
+				16857603156A5E751028E986424E49A7 /* oAuthManager.swift in Sources */,
+				E69EDEE1CF7EA84CC52C9869A60F6F54 /* RegisterManager.swift in Sources */,
+				3B0B09BFCFF3830313FCA815872D61B2 /* RequestCall.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CD0AEB275C1F3439AC981CA6B8285D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9761CA9C77D30CD188270FA4E75E7DDF /* Pods-PrecisionInnaltKey-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5568B94632DB0D7B54EB69228D96E943 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = InnaitPod;
+			target = 49445DFB6B05664A7104D7C3F6C4D51F /* InnaitPod */;
+			targetProxy = 8FA2B518C4DFFB60F902F3CF72E74B33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B2F08AF33696D8DB7A0C50D08F0D4821 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFC06DFD87209D5E80912BB9C3C68255 /* InnaitPod.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/InnaitPod/InnaitPod-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MODULEMAP_FILE = Headers/Public/InnaitPod/InnaitPod.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = InnaitPod;
+				PRODUCT_NAME = InnaitPod;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9FD033E09A03C3CB526650B2329FE9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEA2B53B0FC86FB2CE30EE199F7D532B /* Pods-PrecisionInnaltKey.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PrecisionInnaltKey/Pods-PrecisionInnaltKey.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4BFE49205ADBD1935E9918CF4D5DA28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F0E31359AD9744B2E6BFCCAA54DF8E0 /* Pods-PrecisionInnaltKey.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PrecisionInnaltKey/Pods-PrecisionInnaltKey.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA3858515D1F3CCD8865EE7E3D3BC387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81602E9C443DCD1C050581D565EBB512 /* InnaitPod.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/InnaitPod/InnaitPod-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MODULEMAP_FILE = Headers/Public/InnaitPod/InnaitPod.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = InnaitPod;
+				PRODUCT_NAME = InnaitPod;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E29DF4E6F4289D4034DA26AE56ED9BD7 /* Build configuration list for PBXNativeTarget "InnaitPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA3858515D1F3CCD8865EE7E3D3BC387 /* Debug */,
+				B2F08AF33696D8DB7A0C50D08F0D4821 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB65626F47805EE5D43462724EA5E61A /* Build configuration list for PBXNativeTarget "Pods-PrecisionInnaltKey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4BFE49205ADBD1935E9918CF4D5DA28 /* Debug */,
+				B9FD033E09A03C3CB526650B2329FE9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

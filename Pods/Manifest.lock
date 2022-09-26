@@ -1,0 +1,16 @@
+PODS:
+  - InnaitPod (0.0.1)
+
+DEPENDENCIES:
+  - InnaitPod
+
+SPEC REPOS:
+  https://github.com/MelioSystems/InnaitRepo.git:
+    - InnaitPod
+
+SPEC CHECKSUMS:
+  InnaitPod: d53ba949664a3bfad42f1ff46690ab3ea123b2da
+
+PODFILE CHECKSUM: 83f3c486c9fd05dd0595ce3f7969534d43ca9850
+
+COCOAPODS: 1.11.2

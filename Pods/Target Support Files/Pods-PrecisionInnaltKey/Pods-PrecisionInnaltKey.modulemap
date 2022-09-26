@@ -1,0 +1,6 @@
+module Pods_PrecisionInnaltKey {
+  umbrella header "Pods-PrecisionInnaltKey-umbrella.h"
+
+  export *
+  module * { export * }
+}
